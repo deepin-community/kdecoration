@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.16)
 
 project(decoration-api)
-set(PROJECT_VERSION "5.23.3")
+set(PROJECT_VERSION "5.24.3")
 
 set(QT_MIN_VERSION "5.15.0")
 set(KF5_MIN_VERSION "5.86")
@@ -44,6 +44,7 @@ endif()
 
 set(KDECORATION2_INCLUDEDIR "${KDE_INSTALL_INCLUDEDIR}/KDecoration2")
 find_package(KF5I18n ${KF5_MIN_VERSION} CONFIG REQUIRED)
+find_package(KF5CoreAddons ${KF5_MIN_VERSION} CONFIG REQUIRED)
 
 add_definitions(-DQT_DISABLE_DEPRECATED_BEFORE=0x050d00)
 add_definitions(-DKF_DISABLE_DEPRECATED_BEFORE_AND_AT=0x054200)

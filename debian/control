@@ -2,13 +2,15 @@ Source: kdecoration
 Section: libs
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Uploaders: Scarlett Moore <sgmoore@kde.org>,
-           Patrick Franz <deltaone@debian.org>,
+Uploaders: Aurélien COUDERC <coucouf@debian.org>,
            Norbert Preining <norbert@preining.info>,
+           Patrick Franz <deltaone@debian.org>,
+           Scarlett Moore <sgmoore@kde.org>,
 Build-Depends: cmake (>= 3.16~),
                debhelper-compat (= 13),
                extra-cmake-modules (>= 5.86~),
                gettext,
+               libkf5coreaddons-dev (>= 5.86~),
                libkf5i18n-dev (>= 5.86~),
                pkg-kde-tools (>= 0.15.15ubuntu1~),
                qtbase5-dev (>= 5.15.0~),
@@ -22,16 +24,16 @@ Package: libkdecorations2-5v5
 Architecture: any
 Multi-Arch: same
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Breaks: kwin-common (<< 4:5.22.90),
-        kwin-decoration-oxygen (<< 4:5.22.90),
-        kwin-style-breeze (<< 4:5.22.90),
-        kwin-wayland (<< 4:5.22.90),
-        kwin-wayland-backend-drm (<< 4:5.22.90),
-        kwin-wayland-backend-fbdev (<< 4:5.22.90),
-        kwin-wayland-backend-virtual (<< 4:5.22.90),
-        kwin-wayland-backend-wayland (<< 4:5.22.90),
-        kwin-wayland-backend-x11 (<< 4:5.22.90),
-        kwin-x11 (<< 4:5.22.90),
+Breaks: kwin-common (<< 4:5.23.90),
+        kwin-decoration-oxygen (<< 4:5.23.90),
+        kwin-style-breeze (<< 4:5.23.90),
+        kwin-wayland (<< 4:5.23.90),
+        kwin-wayland-backend-drm (<< 4:5.23.90),
+        kwin-wayland-backend-fbdev (<< 4:5.23.90),
+        kwin-wayland-backend-virtual (<< 4:5.23.90),
+        kwin-wayland-backend-wayland (<< 4:5.23.90),
+        kwin-wayland-backend-x11 (<< 4:5.23.90),
+        kwin-x11 (<< 4:5.23.90),
 Description: library to create window decorations
  KDecoration2 is a library to create window decorations. These window
  decorations can be used by for example an X11 based window manager
@@ -56,14 +58,14 @@ Package: libkdecorations2private9
 Architecture: any
 Multi-Arch: same
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Breaks: kwin-common (<< 4:5.22.90),
-        kwin-wayland (<< 4:5.22.90),
-        kwin-wayland-backend-drm (<< 4:5.22.90),
-        kwin-wayland-backend-fbdev (<< 4:5.22.90),
-        kwin-wayland-backend-virtual (<< 4:5.22.90),
-        kwin-wayland-backend-wayland (<< 4:5.22.90),
-        kwin-wayland-backend-x11 (<< 4:5.22.90),
-        kwin-x11 (<< 4:5.22.90),
+Breaks: kwin-common (<< 4:5.23.90),
+        kwin-wayland (<< 4:5.23.90),
+        kwin-wayland-backend-drm (<< 4:5.23.90),
+        kwin-wayland-backend-fbdev (<< 4:5.23.90),
+        kwin-wayland-backend-virtual (<< 4:5.23.90),
+        kwin-wayland-backend-wayland (<< 4:5.23.90),
+        kwin-wayland-backend-x11 (<< 4:5.23.90),
+        kwin-x11 (<< 4:5.23.90),
 Description: library to create window decorations - private library
  KDecoration2 is a library to create window decorations. These window
  decorations can be used by for example an X11 based window manager

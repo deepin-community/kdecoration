@@ -2,25 +2,26 @@
 # This file is distributed under the same license as the kdecoration package.
 #
 # Kristóf Kiszel <ulysses@kubuntu.org>, 2019.
+# Kristof Kiszel <ulysses@fsf.hu>, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: kdecoration\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-05-05 00:20+0000\n"
-"PO-Revision-Date: 2019-11-22 23:42+0100\n"
-"Last-Translator: Kristóf Kiszel <ulysses@kubuntu.org>\n"
+"PO-Revision-Date: 2021-11-24 13:23+0100\n"
+"Last-Translator: Kristof Kiszel <ulysses@fsf.hu>\n"
 "Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 20.03.70\n"
+"X-Generator: Lokalize 21.08.3\n"
 
 #: decorationbutton.cpp:299
 #, kde-format
 msgid "More actions for this window"
-msgstr ""
+msgstr "További műveletek"
 
 #: decorationbutton.cpp:301
 #, kde-format
@@ -73,23 +74,21 @@ msgid "Shade"
 msgstr "Árnyékolás"
 
 #: decorationbutton.cpp:325
-#, fuzzy, kde-format
-#| msgid "Don't keep below"
+#, kde-format
 msgid "Don't keep below other windows"
-msgstr "Ne tartsa alul"
+msgstr "Ne maradjon más ablakok alatt"
 
 #: decorationbutton.cpp:327
 #, kde-format
 msgid "Keep below other windows"
-msgstr ""
+msgstr "Maradjon más ablakok alatt"
 
 #: decorationbutton.cpp:330
-#, fuzzy, kde-format
-#| msgid "Don't keep above"
+#, kde-format
 msgid "Don't keep above other windows"
-msgstr "Ne tartsa felül"
+msgstr "Ne maradjon más ablakok fölött"
 
 #: decorationbutton.cpp:332
 #, kde-format
 msgid "Keep above other windows"
-msgstr ""
+msgstr "Maradjon más ablakok fölött"

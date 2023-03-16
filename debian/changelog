@@ -1,3 +1,49 @@
+kdecoration (4:5.24.3-1) unstable; urgency=medium
+
+  * update
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 22 Apr 2022 16:09:26 +0800
+
+kdecoration (4:5.24.3-1) unstable; urgency=medium
+
+  [ Aurélien COUDERC ]
+  * New upstream release (5.24.3).
+  * Added myself to the uploaders.
+
+ -- Aurélien COUDERC <coucouf@debian.org>  Thu, 10 Mar 2022 07:44:17 +0100
+
+kdecoration (4:5.24.2-2) unstable; urgency=medium
+
+  [ Patrick Franz ]
+  * Remove autopkgtest.
+
+ -- Patrick Franz <deltaone@debian.org>  Sat, 26 Feb 2022 22:29:19 +0100
+
+kdecoration (4:5.24.2-1) unstable; urgency=medium
+
+  [ Patrick Franz ]
+  * New upstream release (5.24.2).
+  * Update B-Ds and deps with the info from cmake.
+  * Update symbols from buildlogs.
+  * Re-export signing key without extra signatures.
+  * Update d/copyright.
+
+ -- Patrick Franz <deltaone@debian.org>  Sat, 26 Feb 2022 21:58:17 +0100
+
+kdecoration (4:5.23.5-1) unstable; urgency=medium
+
+  [ Patrick Franz ]
+  * New upstream release (5.23.5).
+
+ -- Patrick Franz <deltaone@debian.org>  Fri, 07 Jan 2022 15:43:26 +0100
+
+kdecoration (4:5.23.4-1) unstable; urgency=medium
+
+  [ Norbert Preining ]
+  * New upstream release (5.23.4).
+
+ -- Patrick Franz <deltaone@debian.org>  Thu, 02 Dec 2021 20:24:08 +0100
+
 kdecoration (4:5.23.3-1) unstable; urgency=medium
 
   [ Norbert Preining ]

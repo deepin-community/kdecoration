@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:5.23.0 amd64
+# SymbolsHelper-Confirmed: 4:5.24.0 amd64
 libkdecorations2.so.5 libkdecorations2-5v5 #MINVER#
 * Build-Depends-Package: libkdecorations2-dev
  _ZN12KDecoration210Decoration10setBordersERK8QMargins@Base 5.1.50
@@ -170,6 +170,24 @@ libkdecorations2.so.5 libkdecorations2-5v5 #MINVER#
  _ZN12KDecoration221DecorationButtonGroupD0Ev@Base 5.1.50
  _ZN12KDecoration221DecorationButtonGroupD1Ev@Base 5.1.50
  _ZN12KDecoration221DecorationButtonGroupD2Ev@Base 5.1.50
+ _ZN12KDecoration223DecorationThemeMetaData11setPluginIdERK7QString@Base 4:5.24.0
+ _ZN12KDecoration223DecorationThemeMetaData12setThemeNameERK7QString@Base 4:5.24.0
+ _ZN12KDecoration223DecorationThemeMetaData13setBorderSizeENS_10BorderSizeE@Base 4:5.24.0
+ _ZN12KDecoration223DecorationThemeMetaData14setVisibleNameERK7QString@Base 4:5.24.0
+ _ZN12KDecoration223DecorationThemeMetaData19setHasConfigurationEb@Base 4:5.24.0
+ _ZN12KDecoration223DecorationThemeMetaDataC1ERKS0_@Base 4:5.24.0
+ _ZN12KDecoration223DecorationThemeMetaDataC1Ev@Base 4:5.24.0
+ _ZN12KDecoration223DecorationThemeMetaDataC2ERKS0_@Base 4:5.24.0
+ _ZN12KDecoration223DecorationThemeMetaDataC2Ev@Base 4:5.24.0
+ _ZN12KDecoration223DecorationThemeMetaDataD0Ev@Base 4:5.24.0
+ _ZN12KDecoration223DecorationThemeMetaDataD1Ev@Base 4:5.24.0
+ _ZN12KDecoration223DecorationThemeMetaDataD2Ev@Base 4:5.24.0
+ _ZN12KDecoration223DecorationThemeMetaDataaSERKS0_@Base 4:5.24.0
+ _ZN12KDecoration223DecorationThemeProvider11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:5.24.0
+ _ZN12KDecoration223DecorationThemeProvider11qt_metacastEPKc@Base 4:5.24.0
+ _ZN12KDecoration223DecorationThemeProvider16staticMetaObjectE@Base 4:5.24.0
+ _ZN12KDecoration223DecorationThemeProviderC1EP7QObjectRK15KPluginMetaDataRK5QListI8QVariantE@Base 4:5.24.0
+ _ZN12KDecoration223DecorationThemeProviderC2EP7QObjectRK15KPluginMetaDataRK5QListI8QVariantE@Base 4:5.24.0
  _ZN12KDecoration25qHashERKNS_20DecorationButtonTypeE@Base 5.1.50
  _ZNK12KDecoration210Decoration10borderLeftEv@Base 5.1.50
  _ZNK12KDecoration210Decoration10metaObjectEv@Base 5.1.50
@@ -270,21 +288,33 @@ libkdecorations2.so.5 libkdecorations2-5v5 #MINVER#
  _ZNK12KDecoration221DecorationButtonGroup7spacingEv@Base 5.1.50
  _ZNK12KDecoration221DecorationButtonGroup8geometryEv@Base 5.1.50
  _ZNK12KDecoration221DecorationButtonGroup9hasButtonENS_20DecorationButtonTypeE@Base 5.1.50
+ _ZNK12KDecoration223DecorationThemeMetaData10borderSizeEv@Base 4:5.24.0
+ _ZNK12KDecoration223DecorationThemeMetaData11visibleNameEv@Base 4:5.24.0
+ _ZNK12KDecoration223DecorationThemeMetaData16hasConfigurationEv@Base 4:5.24.0
+ _ZNK12KDecoration223DecorationThemeMetaData8pluginIdEv@Base 4:5.24.0
+ _ZNK12KDecoration223DecorationThemeMetaData9themeNameEv@Base 4:5.24.0
+ _ZNK12KDecoration223DecorationThemeProvider10metaObjectEv@Base 4:5.24.0
  _ZTIN12KDecoration210DecorationE@Base 5.1.50
  _ZTIN12KDecoration215DecoratedClientE@Base 5.1.50
  _ZTIN12KDecoration216DecorationButtonE@Base 5.1.50
  _ZTIN12KDecoration216DecorationShadowE@Base 5.1.50
  _ZTIN12KDecoration218DecorationSettingsE@Base 5.1.50
  _ZTIN12KDecoration221DecorationButtonGroupE@Base 5.1.50
+ _ZTIN12KDecoration223DecorationThemeMetaDataE@Base 4:5.24.0
+ _ZTIN12KDecoration223DecorationThemeProviderE@Base 4:5.24.0
  _ZTSN12KDecoration210DecorationE@Base 5.1.50
  _ZTSN12KDecoration215DecoratedClientE@Base 5.1.50
  _ZTSN12KDecoration216DecorationButtonE@Base 5.1.50
  _ZTSN12KDecoration216DecorationShadowE@Base 5.1.50
  _ZTSN12KDecoration218DecorationSettingsE@Base 5.1.50
  _ZTSN12KDecoration221DecorationButtonGroupE@Base 5.1.50
+ _ZTSN12KDecoration223DecorationThemeMetaDataE@Base 4:5.24.0
+ _ZTSN12KDecoration223DecorationThemeProviderE@Base 4:5.24.0
  _ZTVN12KDecoration210DecorationE@Base 5.1.50
  _ZTVN12KDecoration215DecoratedClientE@Base 5.1.50
  _ZTVN12KDecoration216DecorationButtonE@Base 5.1.50
  _ZTVN12KDecoration216DecorationShadowE@Base 5.1.50
  _ZTVN12KDecoration218DecorationSettingsE@Base 5.1.50
  _ZTVN12KDecoration221DecorationButtonGroupE@Base 5.1.50
+ _ZTVN12KDecoration223DecorationThemeMetaDataE@Base 4:5.24.0
+ _ZTVN12KDecoration223DecorationThemeProviderE@Base 4:5.24.0
