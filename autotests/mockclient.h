@@ -3,8 +3,7 @@
  *
  * SPDX-License-Identifier: LGPL-2.1-only OR LGPL-3.0-only OR LicenseRef-KDE-Accepted-LGPL
  */
-#ifndef MOCK_CLIENT_H
-#define MOCK_CLIENT_H
+#pragma once
 
 #include "../src/private/decoratedclientprivate.h"
 
@@ -56,6 +55,7 @@ public:
     QSize size() const override;
     int width() const override;
     WId windowId() const override;
+    QString windowClass() const override;
 
     void showApplicationMenu(int actionId) override;
 
@@ -90,5 +90,3 @@ private:
     int m_width = 0;
     int m_height = 0;
 };
-
-#endif

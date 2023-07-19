@@ -9,6 +9,7 @@ libkdecorations2.so.5 libkdecorations2-5v5 #MINVER#
  _ZN12KDecoration210Decoration11setTitleBarERK5QRect@Base 5.1.50
  _ZN12KDecoration210Decoration12requestCloseEv@Base 5.1.50
  _ZN12KDecoration210Decoration13opaqueChangedEb@Base 5.1.50
+ _ZN12KDecoration210Decoration13setBlurRegionERK7QRegion@Base 4:5.24.90
  _ZN12KDecoration210Decoration13shadowChangedERK14QSharedPointerINS_16DecorationShadowEE@Base 5.1.50
  _ZN12KDecoration210Decoration14bordersChangedEv@Base 5.1.50
  _ZN12KDecoration210Decoration14hoverMoveEventEP11QHoverEvent@Base 5.1.50
@@ -19,6 +20,7 @@ libkdecorations2.so.5 libkdecorations2-5v5 #MINVER#
  _ZN12KDecoration210Decoration15requestMinimizeEv@Base 5.1.50
  _ZN12KDecoration210Decoration15titleBarChangedEv@Base 5.1.50
  _ZN12KDecoration210Decoration16staticMetaObjectE@Base 5.1.50
+ _ZN12KDecoration210Decoration17blurRegionChangedEv@Base 4:5.24.90
  _ZN12KDecoration210Decoration17mouseReleaseEventEP11QMouseEvent@Base 5.1.50
  _ZN12KDecoration210Decoration18requestContextHelpEv@Base 5.1.50
  _ZN12KDecoration210Decoration18requestHideToolTipEv@Base 4:5.13.1
@@ -189,6 +191,7 @@ libkdecorations2.so.5 libkdecorations2-5v5 #MINVER#
  _ZN12KDecoration223DecorationThemeProviderC1EP7QObjectRK15KPluginMetaDataRK5QListI8QVariantE@Base 4:5.24.0
  _ZN12KDecoration223DecorationThemeProviderC2EP7QObjectRK15KPluginMetaDataRK5QListI8QVariantE@Base 4:5.24.0
  _ZN12KDecoration25qHashERKNS_20DecorationButtonTypeE@Base 5.1.50
+ _ZNK12KDecoration210Decoration10blurRegionEv@Base 4:5.24.90
  _ZNK12KDecoration210Decoration10borderLeftEv@Base 5.1.50
  _ZNK12KDecoration210Decoration10metaObjectEv@Base 5.1.50
  _ZNK12KDecoration210Decoration11borderRightEv@Base 5.1.50
@@ -216,6 +219,7 @@ libkdecorations2.so.5 libkdecorations2-5v5 #MINVER#
  _ZNK12KDecoration215DecoratedClient11isKeepBelowEv@Base 5.1.50
  _ZNK12KDecoration215DecoratedClient11isMaximizedEv@Base 5.1.50
  _ZNK12KDecoration215DecoratedClient11isShadeableEv@Base 5.1.50
+ _ZNK12KDecoration215DecoratedClient11windowClassEv@Base 4:5.26.90
  _ZNK12KDecoration215DecoratedClient12decorationIdEv@Base 5.1.50
  _ZNK12KDecoration215DecoratedClient12isResizeableEv@Base 5.1.50
  _ZNK12KDecoration215DecoratedClient14isMaximizeableEv@Base 5.1.50

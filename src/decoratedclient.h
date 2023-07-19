@@ -3,8 +3,7 @@
  *
  * SPDX-License-Identifier: LGPL-2.1-only OR LGPL-3.0-only OR LicenseRef-KDE-Accepted-LGPL
  */
-#ifndef KDECORATION2_DECORATED_CLIENT_H
-#define KDECORATION2_DECORATED_CLIENT_H
+#pragma once
 
 #include "decoration.h"
 #include "decorationdefines.h"
@@ -199,6 +198,8 @@ public:
     WId windowId() const;
     WId decorationId() const;
 
+    QString windowClass() const;
+
     int width() const;
     int height() const;
     QSize size() const;
@@ -277,5 +278,3 @@ private:
 };
 
 } // namespace
-
-#endif

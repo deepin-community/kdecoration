@@ -28,7 +28,7 @@ target_link_libraries(kdecorations2private
 target_include_directories(kdecorations2private INTERFACE "$<INSTALL_INTERFACE:${KDECORATION2_INCLUDEDIR}>" )
 
 set_target_properties(kdecorations2private PROPERTIES VERSION   ${KDECORATION2_VERSION}
-                                                      SOVERSION 9
+                                                      SOVERSION 10
                                                       EXPORT_NAME KDecoration2Private
 )
 
@@ -45,7 +45,7 @@ install(FILES ${KDecoration2Private_CamelCase_HEADERS}
         DESTINATION ${KDECORATION2_INCLUDEDIR}/KDecoration2/Private
         COMPONENT Devel)
 
-install(TARGETS kdecorations2private EXPORT KDecoration2Targets ${KF5_INSTALL_TARGETS_DEFAULT_ARGS})
+install(TARGETS kdecorations2private EXPORT KDecoration2Targets ${KF_INSTALL_TARGETS_DEFAULT_ARGS})
 
 install(
     FILES
