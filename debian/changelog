@@ -1,14 +1,160 @@
-kdecoration (4:5.24.3-2deepin) unstable; urgency=medium
+kdecoration (4:5.27.5-2) unstable; urgency=medium
 
-  * Regulate version name
+  * Release to unstable.
 
- -- Yutao Meng <mengyutao@uniontech.com>  Tue, 21 Mar 2023 14:24:26 +0800
+ -- Aurélien COUDERC <coucouf@debian.org>  Sat, 27 May 2023 18:23:40 +0200
 
-kdecoration (4:5.24.3-1) unstable; urgency=medium
+kdecoration (4:5.27.5-1) experimental; urgency=medium
 
-  * update
+  [ Patrick Franz ]
+  * New upstream release (5.27.5).
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 22 Apr 2022 16:09:26 +0800
+ -- Patrick Franz <deltaone@debian.org>  Tue, 09 May 2023 23:25:55 +0200
+
+kdecoration (4:5.27.3-1) experimental; urgency=medium
+
+  [ Patrick Franz ]
+  * New upstream release (5.27.3).
+
+ -- Patrick Franz <deltaone@debian.org>  Wed, 22 Mar 2023 23:14:56 +0100
+
+kdecoration (4:5.27.2-1) unstable; urgency=medium
+
+  [ Aurélien COUDERC ]
+  * New upstream release (5.27.1).
+  * New upstream release (5.27.2).
+
+ -- Aurélien COUDERC <coucouf@debian.org>  Tue, 28 Feb 2023 14:58:57 +0100
+
+kdecoration (4:5.27.0-1) unstable; urgency=medium
+
+  [ Aurélien COUDERC ]
+  * Fix Breaks against older version of kwin.
+  * New upstream release (5.27.0).
+  * Update build-deps and deps with the info from cmake.
+
+ -- Aurélien COUDERC <coucouf@debian.org>  Sat, 18 Feb 2023 17:08:35 +0100
+
+kdecoration (4:5.26.90-2) unstable; urgency=medium
+
+  [ Aurélien COUDERC ]
+  * Release to unstable.
+
+ -- Aurélien COUDERC <coucouf@debian.org>  Mon, 23 Jan 2023 21:50:52 +0100
+
+kdecoration (4:5.26.90-1) experimental; urgency=medium
+
+  [ Aurélien COUDERC ]
+  * New upstream release (5.26.90).
+  * Bump Standards-Version to 4.6.2, no change required.
+  * Bump soname of libkdecorations2private to 10.
+  * Update symbols from build for 5.26.90.
+
+ -- Aurélien COUDERC <coucouf@debian.org>  Sun, 22 Jan 2023 01:31:41 +0100
+
+kdecoration (4:5.26.5-1) unstable; urgency=medium
+
+  [ Aurélien COUDERC ]
+  * New upstream release (5.26.5).
+
+ -- Aurélien COUDERC <coucouf@debian.org>  Sat, 07 Jan 2023 00:20:10 +0100
+
+kdecoration (4:5.26.4-1) unstable; urgency=medium
+
+  [ Aurélien COUDERC ]
+  * New upstream release (5.26.4).
+
+ -- Aurélien COUDERC <coucouf@debian.org>  Tue, 29 Nov 2022 15:58:56 +0100
+
+kdecoration (4:5.26.3-1) unstable; urgency=medium
+
+  [ Aurélien COUDERC ]
+  * New upstream release (5.26.3).
+
+ -- Aurélien COUDERC <coucouf@debian.org>  Tue, 08 Nov 2022 15:41:58 +0100
+
+kdecoration (4:5.26.2-1) unstable; urgency=medium
+
+  [ Aurélien COUDERC ]
+  * New upstream release (5.26.1).
+  * New upstream release (5.26.2).
+
+ -- Aurélien COUDERC <coucouf@debian.org>  Thu, 27 Oct 2022 23:25:09 +0200
+
+kdecoration (4:5.26.0-1) unstable; urgency=medium
+
+  [ Aurélien COUDERC ]
+  * New upstream release (5.26.0).
+  * Release to unstable.
+
+ -- Aurélien COUDERC <coucouf@debian.org>  Tue, 11 Oct 2022 15:43:58 +0200
+
+kdecoration (4:5.25.90-1) experimental; urgency=medium
+
+  [ Aurélien COUDERC ]
+  * New upstream release (5.25.90).
+  * Update build-deps and deps with the info from cmake.
+
+ -- Aurélien COUDERC <coucouf@debian.org>  Sun, 25 Sep 2022 00:14:19 +0200
+
+kdecoration (4:5.25.5-1) unstable; urgency=medium
+
+  [ Aurélien COUDERC ]
+  * New upstream release (5.25.5).
+
+ -- Aurélien COUDERC <coucouf@debian.org>  Fri, 09 Sep 2022 23:20:26 +0200
+
+kdecoration (4:5.25.4-1) unstable; urgency=medium
+
+  [ Aurélien COUDERC ]
+  * New upstream release (5.25.4).
+
+ -- Aurélien COUDERC <coucouf@debian.org>  Tue, 02 Aug 2022 17:30:20 +0200
+
+kdecoration (4:5.25.3-1) unstable; urgency=medium
+
+  [ Aurélien COUDERC ]
+  * New upstream release (5.25.2).
+  * New upstream release (5.25.3).
+  * Release to unstable
+
+ -- Aurélien COUDERC <coucouf@debian.org>  Sun, 17 Jul 2022 15:26:03 +0200
+
+kdecoration (4:5.25.1-1) experimental; urgency=medium
+
+  [ Patrick Franz ]
+  * New upstream release (5.25.1).
+
+ -- Patrick Franz <deltaone@debian.org>  Tue, 21 Jun 2022 21:45:24 +0200
+
+kdecoration (4:5.25.0-1) experimental; urgency=medium
+
+  * New upstream release (5.25.0).
+  * Bump Standards-Version to 4.6.1, no change required.
+
+ -- Aurélien COUDERC <coucouf@debian.org>  Tue, 14 Jun 2022 21:26:01 +0200
+
+kdecoration (4:5.24.90-1) experimental; urgency=medium
+
+  [ Aurélien COUDERC ]
+  * New upstream release (5.24.90).
+  * Update symbols from build for 5.24.90.
+
+ -- Aurélien COUDERC <coucouf@debian.org>  Fri, 20 May 2022 11:25:14 +0200
+
+kdecoration (4:5.24.5-1) unstable; urgency=medium
+
+  [ Aurélien COUDERC ]
+  * New upstream release (5.24.5).
+
+ -- Aurélien COUDERC <coucouf@debian.org>  Thu, 12 May 2022 21:38:58 +0200
+
+kdecoration (4:5.24.4-1) unstable; urgency=medium
+
+  [ Aurélien COUDERC ]
+  * New upstream release (5.24.4).
+
+ -- Aurélien COUDERC <coucouf@debian.org>  Wed, 30 Mar 2022 13:43:22 +0200
 
 kdecoration (4:5.24.3-1) unstable; urgency=medium
 

@@ -14,6 +14,8 @@
 #include <QCoreApplication>
 #include <QHoverEvent>
 
+#include <cmath>
+
 namespace KDecoration2
 {
 namespace
@@ -219,6 +221,7 @@ void Decoration::requestShowApplicationMenu(const QRect &rect, int actionId)
         Q_EMIT variableName##Changed(emitValue);                                                                                                               \
     }
 
+DELEGATE(setBlurRegion, blurRegion, const QRegion &, )
 DELEGATE(setBorders, borders, const QMargins &, )
 DELEGATE(setResizeOnlyBorders, resizeOnlyBorders, const QMargins &, )
 DELEGATE(setTitleBar, titleBar, const QRect &, )
@@ -233,6 +236,7 @@ DELEGATE(setShadow, shadow, const QSharedPointer<DecorationShadow> &, d->shadow)
         return d->name;                                                                                                                                        \
     }
 
+DELEGATE(blurRegion, QRegion)
 DELEGATE(borders, QMargins)
 DELEGATE(resizeOnlyBorders, QMargins)
 DELEGATE(titleBar, QRect)
@@ -308,7 +312,8 @@ void Decoration::hoverEnterEvent(QHoverEvent *event)
     for (DecorationButton *button : d->buttons) {
         QCoreApplication::instance()->sendEvent(button, event);
     }
-    d->updateSectionUnderMouse(event->pos());
+    auto flooredPos = QPoint(std::floor(event->posF().x()), std::floor(event->posF().y()));
+    d->updateSectionUnderMouse(flooredPos);
 }
 
 void Decoration::hoverLeaveEvent(QHoverEvent *event)
@@ -337,7 +342,8 @@ void Decoration::hoverMoveEvent(QHoverEvent *event)
             QCoreApplication::instance()->sendEvent(button, event);
         }
     }
-    d->updateSectionUnderMouse(event->pos());
+    auto flooredPos = QPoint(std::floor(event->posF().x()), std::floor(event->posF().y()));
+    d->updateSectionUnderMouse(flooredPos);
 }
 
 void Decoration::mouseMoveEvent(QMouseEvent *event)

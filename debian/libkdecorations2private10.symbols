@@ -1,5 +1,5 @@
 # SymbolsHelper-Confirmed: 4:5.18.5 amd64
-libkdecorations2private.so.9 libkdecorations2private9 #MINVER#
+libkdecorations2private.so.10 libkdecorations2private10 #MINVER#
 * Build-Depends-Package: libkdecorations2-dev
  _ZN12KDecoration216DecorationBridge11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.1.50
  _ZN12KDecoration216DecorationBridge11qt_metacastEPKc@Base 5.1.50

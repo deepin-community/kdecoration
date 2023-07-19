@@ -3,8 +3,7 @@
  *
  * SPDX-License-Identifier: LGPL-2.1-only OR LGPL-3.0-only OR LicenseRef-KDE-Accepted-LGPL
  */
-#ifndef KDECORATION2_DECORATED_CLIENT_PRIVATE_H
-#define KDECORATION2_DECORATED_CLIENT_PRIVATE_H
+#pragma once
 
 #include "../decorationdefines.h"
 #include <kdecoration2/private/kdecoration2_private_export.h>
@@ -78,6 +77,7 @@ public:
     Decoration *decoration() const;
 
     virtual QColor color(ColorGroup group, ColorRole role) const;
+    virtual QString windowClass() const = 0;
 
 protected:
     explicit DecoratedClientPrivate(DecoratedClient *client, Decoration *decoration);
@@ -104,5 +104,3 @@ protected:
 };
 
 } // namespace
-
-#endif
